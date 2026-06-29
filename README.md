@@ -301,6 +301,9 @@ Hate speech and toxic speech detection systems should be used carefully. Classif
 
 ## Author / Course Information
 
-Author: To be updated
+Author: 
+
+Nguyen Tran Minh Khoi - 23520780 - UIT
+Vo Minh Chien - 23520184 - UIT
 
 Course: Natural Language Processing
