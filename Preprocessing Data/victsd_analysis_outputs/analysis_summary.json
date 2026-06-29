@@ -1,0 +1,203 @@
+{
+  "total_samples": 10000,
+  "label_schema": {
+    "Constructiveness": {
+      "labels": [
+        0,
+        1
+      ],
+      "label_names": {
+        "0": "Non-Constructive",
+        "1": "Constructive"
+      }
+    },
+    "Toxicity": {
+      "labels": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_names": {
+        "0": "Non-toxic",
+        "1": "Quite toxic",
+        "2": "Toxic",
+        "3": "Very toxic"
+      }
+    }
+  },
+  "constructiveness_distribution": {
+    "counts": {
+      "0": 6404,
+      "1": 3596
+    },
+    "percent": {
+      "0": 64.04,
+      "1": 35.96
+    }
+  },
+  "toxicity_distribution": {
+    "counts": {
+      "0": 8899,
+      "1": 1101,
+      "2": 0,
+      "3": 0
+    },
+    "percent": {
+      "0": 88.99,
+      "1": 11.01,
+      "2": 0.0,
+      "3": 0.0
+    }
+  },
+  "label_cooccurrence_counts": {
+    "C0_T0": 5588,
+    "C0_T1": 816,
+    "C0_T2": 0,
+    "C0_T3": 0,
+    "C1_T0": 3311,
+    "C1_T1": 285,
+    "C1_T2": 0,
+    "C1_T3": 0
+  },
+  "unknown_labels_detected": {
+    "Constructiveness": [],
+    "Toxicity": []
+  },
+  "average_length_tokens": 29.7379,
+  "max_length_tokens": 422,
+  "min_length_tokens": 1,
+  "vocabulary": {
+    "unique_words": 7785,
+    "top_frequent_words": [
+      {
+        "word": "có",
+        "count": 4360
+      },
+      {
+        "word": "là",
+        "count": 4072
+      },
+      {
+        "word": "không",
+        "count": 3524
+      },
+      {
+        "word": "thì",
+        "count": 2912
+      },
+      {
+        "word": "và",
+        "count": 2860
+      },
+      {
+        "word": "người",
+        "count": 2405
+      },
+      {
+        "word": "các",
+        "count": 2135
+      },
+      {
+        "word": "cho",
+        "count": 2126
+      },
+      {
+        "word": "của",
+        "count": 2018
+      },
+      {
+        "word": "này",
+        "count": 1996
+      },
+      {
+        "word": "mà",
+        "count": 1986
+      },
+      {
+        "word": "được",
+        "count": 1906
+      },
+      {
+        "word": "con",
+        "count": 1823
+      },
+      {
+        "word": "cũng",
+        "count": 1722
+      },
+      {
+        "word": "như",
+        "count": 1587
+      },
+      {
+        "word": "đi",
+        "count": 1568
+      },
+      {
+        "word": "tôi",
+        "count": 1515
+      },
+      {
+        "word": "lại",
+        "count": 1479
+      },
+      {
+        "word": "để",
+        "count": 1458
+      },
+      {
+        "word": "quá",
+        "count": 1434
+      },
+      {
+        "word": "phải",
+        "count": 1409
+      },
+      {
+        "word": "học",
+        "count": 1368
+      },
+      {
+        "word": "còn",
+        "count": 1310
+      },
+      {
+        "word": "1",
+        "count": 1295
+      },
+      {
+        "word": "với",
+        "count": 1288
+      },
+      {
+        "word": "làm",
+        "count": 1286
+      },
+      {
+        "word": "đã",
+        "count": 1253
+      },
+      {
+        "word": "nhiều",
+        "count": 1252
+      },
+      {
+        "word": "xe",
+        "count": 1212
+      },
+      {
+        "word": "hơn",
+        "count": 1189
+      }
+    ],
+    "stopword_tokens": 69293,
+    "stopword_ratio": 0.233012,
+    "slang_or_teen_code_ratio": 0.1083
+  },
+  "comment_properties": {
+    "percent_non_diacritic_comments": 0.3,
+    "percent_with_emoji": 0.0,
+    "percent_with_url": 0.02
+  }
+}

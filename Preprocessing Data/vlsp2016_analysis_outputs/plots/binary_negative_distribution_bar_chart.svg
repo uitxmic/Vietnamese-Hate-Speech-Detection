@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="520" viewBox="0 0 860 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="430.0" y="35" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">VLSP 2016 Binary Negative Distribution</text>
+<line x1="90" y1="425" x2="820" y2="425" stroke="#333"/>
+<line x1="90" y1="70" x2="90" y2="425" stroke="#333"/>
+<line x1="85" y1="425.00" x2="820" y2="425.00" stroke="#ddd"/>
+<text x="78" y="429.00" text-anchor="end" font-family="Arial" font-size="12" fill="#555">0</text>
+<line x1="85" y1="354.00" x2="820" y2="354.00" stroke="#ddd"/>
+<text x="78" y="358.00" text-anchor="end" font-family="Arial" font-size="12" fill="#555">832</text>
+<line x1="85" y1="283.00" x2="820" y2="283.00" stroke="#ddd"/>
+<text x="78" y="287.00" text-anchor="end" font-family="Arial" font-size="12" fill="#555">1664</text>
+<line x1="85" y1="212.00" x2="820" y2="212.00" stroke="#ddd"/>
+<text x="78" y="216.00" text-anchor="end" font-family="Arial" font-size="12" fill="#555">2497</text>
+<line x1="85" y1="141.00" x2="820" y2="141.00" stroke="#ddd"/>
+<text x="78" y="145.00" text-anchor="end" font-family="Arial" font-size="12" fill="#555">3329</text>
+<line x1="85" y1="70.00" x2="820" y2="70.00" stroke="#ddd"/>
+<text x="78" y="74.00" text-anchor="end" font-family="Arial" font-size="12" fill="#555">4161</text>
+<rect x="120.00" y="70.00" width="320.00" height="355.00" fill="#54A24B"/>
+<text x="280.00" y="62.00" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">4161</text>
+<text x="280.00" y="457" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">0 non-negative</text>
+<rect x="470.00" y="246.77" width="320.00" height="178.23" fill="#E45756"/>
+<text x="630.00" y="238.77" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">2089</text>
+<text x="630.00" y="457" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">1 negative</text>
+</svg>

@@ -1,0 +1,31 @@
+=== VLSP 2016 Dataset Analysis Summary ===
+Total samples: 6250
+Merged CSV: vlsp2016_analysis_outputs\vlsp2016_merged.csv
+Split counts: {'train': 5100, 'dev': 100, 'test': 1050}
+
+Sentiment label counts: {'NEG': 2089, 'NEU': 2059, 'POS': 2102}
+Sentiment label distribution (%): {'NEG': 33.424, 'NEU': 32.944, 'POS': 33.632}
+Binary mapping: {'NEG': 1, 'NEU': 0, 'POS': 0}
+Binary label counts: {'0_non_negative_POS_or_NEU': 4161, '1_negative_NEG': 2089}
+Binary label distribution (%): {'0_non_negative_POS_or_NEU': 66.576, '1_negative_NEG': 33.424}
+
+Unknown labels found: []
+
+Average length (tokens): 29.1992
+Max length (tokens): 2920
+Min length (tokens): 0
+Average length (characters): 129.9989
+Max length (characters): 13511
+Min length (characters): 0
+
+Length by label: {'NEG': {'average_length_tokens': 25.7769, 'max_length_tokens': 356, 'min_length_tokens': 1}, 'NEU': {'average_length_tokens': 38.1914, 'max_length_tokens': 2920, 'min_length_tokens': 0}, 'POS': {'average_length_tokens': 23.7921, 'max_length_tokens': 619, 'min_length_tokens': 0}}
+
+Unique words: 7199
+Stopwords ratio: 0.288052
+Slang/teen-code ratio: 0.192160
+
+Empty texts: 2
+Duplicate texts after normalization: 189
+% texts without diacritics: 3.1680%
+% texts with emoji: 0.0320%
+% texts with URL: 0.2080%

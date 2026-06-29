@@ -1,0 +1,207 @@
+{
+  "total_samples": 6250,
+  "source_files": {
+    "train": "VLSP 2016 Dataset\\train.csv",
+    "dev": "VLSP 2016 Dataset\\dev.csv",
+    "test": "VLSP 2016 Dataset\\test.csv"
+  },
+  "merged_csv": "vlsp2016_analysis_outputs\\vlsp2016_merged.csv",
+  "label_schema": {
+    "original_sentiment_labels": [
+      "NEG",
+      "NEU",
+      "POS"
+    ],
+    "binary_negative_mapping": {
+      "NEG": 1,
+      "NEU": 0,
+      "POS": 0
+    }
+  },
+  "split_counts": {
+    "train": 5100,
+    "dev": 100,
+    "test": 1050
+  },
+  "label_distribution": {
+    "counts": {
+      "NEG": 2089,
+      "NEU": 2059,
+      "POS": 2102
+    },
+    "percent": {
+      "NEG": 33.424,
+      "NEU": 32.944,
+      "POS": 33.632
+    }
+  },
+  "binary_negative_distribution": {
+    "counts": {
+      "0_non_negative_POS_or_NEU": 4161,
+      "1_negative_NEG": 2089
+    },
+    "percent": {
+      "0_non_negative_POS_or_NEU": 66.576,
+      "1_negative_NEG": 33.424
+    }
+  },
+  "unknown_labels_detected": [],
+  "average_length_tokens": 29.1992,
+  "max_length_tokens": 2920,
+  "min_length_tokens": 0,
+  "average_length_characters": 129.9989,
+  "max_length_characters": 13511,
+  "min_length_characters": 0,
+  "length_by_label": {
+    "NEG": {
+      "average_length_tokens": 25.7769,
+      "max_length_tokens": 356,
+      "min_length_tokens": 1
+    },
+    "NEU": {
+      "average_length_tokens": 38.1914,
+      "max_length_tokens": 2920,
+      "min_length_tokens": 0
+    },
+    "POS": {
+      "average_length_tokens": 23.7921,
+      "max_length_tokens": 619,
+      "min_length_tokens": 0
+    }
+  },
+  "vocabulary": {
+    "unique_words": 7199,
+    "top_frequent_words": [
+      {
+        "word": "có",
+        "count": 2632
+      },
+      {
+        "word": "là",
+        "count": 2559
+      },
+      {
+        "word": "thì",
+        "count": 2295
+      },
+      {
+        "word": "không",
+        "count": 1949
+      },
+      {
+        "word": "mình",
+        "count": 1640
+      },
+      {
+        "word": "mà",
+        "count": 1473
+      },
+      {
+        "word": "của",
+        "count": 1450
+      },
+      {
+        "word": "và",
+        "count": 1401
+      },
+      {
+        "word": "dùng",
+        "count": 1388
+      },
+      {
+        "word": "mua",
+        "count": 1346
+      },
+      {
+        "word": "cái",
+        "count": 1300
+      },
+      {
+        "word": "này",
+        "count": 1287
+      },
+      {
+        "word": "cũng",
+        "count": 1233
+      },
+      {
+        "word": "hơn",
+        "count": 1218
+      },
+      {
+        "word": "quá",
+        "count": 1124
+      },
+      {
+        "word": "với",
+        "count": 1098
+      },
+      {
+        "word": "được",
+        "count": 1096
+      },
+      {
+        "word": "1",
+        "count": 1088
+      },
+      {
+        "word": "con",
+        "count": 1077
+      },
+      {
+        "word": "cho",
+        "count": 1060
+      },
+      {
+        "word": "ko",
+        "count": 1055
+      },
+      {
+        "word": "giá",
+        "count": 1040
+      },
+      {
+        "word": "bạn",
+        "count": 1004
+      },
+      {
+        "word": "nó",
+        "count": 1002
+      },
+      {
+        "word": "rồi",
+        "count": 994
+      },
+      {
+        "word": "như",
+        "count": 966
+      },
+      {
+        "word": "hình",
+        "count": 924
+      },
+      {
+        "word": "thấy",
+        "count": 860
+      },
+      {
+        "word": "2",
+        "count": 849
+      },
+      {
+        "word": "nhưng",
+        "count": 841
+      }
+    ],
+    "stopword_tokens": 52568,
+    "stopword_ratio": 0.288052,
+    "slang_or_teen_code_ratio": 0.19216
+  },
+  "text_properties": {
+    "empty_text_count": 2,
+    "duplicate_text_count_after_normalization": 189,
+    "percent_non_diacritic_texts": 3.168,
+    "percent_with_emoji": 0.032,
+    "percent_with_url": 0.208
+  }
+}

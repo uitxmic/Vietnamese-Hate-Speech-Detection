@@ -1,0 +1,16 @@
+=== ViHSD Dataset Analysis Summary ===
+Total samples: 33400
+Label counts: {'0': 27624, '1': 2262, '2': 3514}
+Class distribution (%): {'0': 82.7066, '1': 6.7725, '2': 10.521}
+
+Average length (tokens): 11.4039
+Max length (tokens): 2919
+Min length (tokens): 0
+
+Unique words: 12183
+Stopwords ratio: 0.200953
+Slang/teen-code ratio: 0.293713
+
+% comments without diacritics: 7.0359%
+% comments with emoji: 14.2964%
+% comments with URL: 0.0629%

@@ -1,0 +1,22 @@
+=== ViCTSD Dataset Analysis Summary ===
+Total samples: 10000
+Constructiveness counts: {'0': 6404, '1': 3596}
+Constructiveness (%): {'0': 64.04, '1': 35.96}
+Toxicity counts: {'0': 8899, '1': 1101, '2': 0, '3': 0}
+Toxicity (%): {'0': 88.99, '1': 11.01, '2': 0.0, '3': 0.0}
+Label co-occurrence counts: {'C0_T0': 5588, 'C0_T1': 816, 'C0_T2': 0, 'C0_T3': 0, 'C1_T0': 3311, 'C1_T1': 285, 'C1_T2': 0, 'C1_T3': 0}
+
+Unknown Constructiveness labels found: []
+Unknown Toxicity labels found: []
+
+Average length (tokens): 29.7379
+Max length (tokens): 422
+Min length (tokens): 1
+
+Unique words: 7785
+Stopwords ratio: 0.233012
+Slang/teen-code ratio: 0.108300
+
+% comments without diacritics: 0.3000%
+% comments with emoji: 0.0000%
+% comments with URL: 0.0200%

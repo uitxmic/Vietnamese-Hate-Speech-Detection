@@ -1,0 +1,154 @@
+{
+  "total_samples": 33400,
+  "labels": [
+    0,
+    1,
+    2
+  ],
+  "samples_per_label": {
+    "0": 27624,
+    "1": 2262,
+    "2": 3514
+  },
+  "class_distribution_percent": {
+    "0": 82.7066,
+    "1": 6.7725,
+    "2": 10.521
+  },
+  "average_length_tokens": 11.4039,
+  "max_length_tokens": 2919,
+  "min_length_tokens": 0,
+  "vocabulary": {
+    "unique_words": 12183,
+    "top_frequent_words": [
+      {
+        "word": "là",
+        "count": 4548
+      },
+      {
+        "word": "có",
+        "count": 4343
+      },
+      {
+        "word": "mà",
+        "count": 3180
+      },
+      {
+        "word": "cho",
+        "count": 2924
+      },
+      {
+        "word": "đi",
+        "count": 2770
+      },
+      {
+        "word": "thì",
+        "count": 2744
+      },
+      {
+        "word": "anh",
+        "count": 2657
+      },
+      {
+        "word": "này",
+        "count": 2619
+      },
+      {
+        "word": "con",
+        "count": 2285
+      },
+      {
+        "word": "của",
+        "count": 2134
+      },
+      {
+        "word": "cái",
+        "count": 2064
+      },
+      {
+        "word": "nó",
+        "count": 2045
+      },
+      {
+        "word": "người",
+        "count": 2013
+      },
+      {
+        "word": "không",
+        "count": 1986
+      },
+      {
+        "word": "rồi",
+        "count": 1965
+      },
+      {
+        "word": "ko",
+        "count": 1965
+      },
+      {
+        "word": "em",
+        "count": 1897
+      },
+      {
+        "word": "làm",
+        "count": 1862
+      },
+      {
+        "word": "như",
+        "count": 1819
+      },
+      {
+        "word": "nói",
+        "count": 1784
+      },
+      {
+        "word": "gì",
+        "count": 1776
+      },
+      {
+        "word": "quá",
+        "count": 1771
+      },
+      {
+        "word": "cũng",
+        "count": 1751
+      },
+      {
+        "word": "thầy",
+        "count": 1606
+      },
+      {
+        "word": "lại",
+        "count": 1596
+      },
+      {
+        "word": "hay",
+        "count": 1442
+      },
+      {
+        "word": "ra",
+        "count": 1429
+      },
+      {
+        "word": "ông",
+        "count": 1394
+      },
+      {
+        "word": "phải",
+        "count": 1363
+      },
+      {
+        "word": "còn",
+        "count": 1360
+      }
+    ],
+    "stopword_tokens": 76541,
+    "stopword_ratio": 0.200953,
+    "slang_or_teen_code_ratio": 0.293713
+  },
+  "comment_properties": {
+    "percent_non_diacritic_comments": 7.0359,
+    "percent_with_emoji": 14.2964,
+    "percent_with_url": 0.0629
+  }
+}

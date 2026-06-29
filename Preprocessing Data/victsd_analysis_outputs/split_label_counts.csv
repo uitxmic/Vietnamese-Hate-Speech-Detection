@@ -1,0 +1,4 @@
+split,total_samples,construct_0,construct_1,toxicity_0,toxicity_1,toxicity_2,toxicity_3
+test,1000,636,364,890,110,0,0
+train,7000,4497,2503,6241,759,0,0
+valid,2000,1271,729,1768,232,0,0

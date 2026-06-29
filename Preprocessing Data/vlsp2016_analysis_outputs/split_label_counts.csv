@@ -1,0 +1,4 @@
+split,total_samples,label_NEG,label_NEU,label_POS,unknown_labels,binary_0_non_negative,binary_1_negative,average_length_tokens
+train,5100,1700,1700,1700,0,3400,1700,29.7204
+dev,100,39,9,52,0,61,39,30.0
+test,1050,350,350,350,0,700,350,26.5914

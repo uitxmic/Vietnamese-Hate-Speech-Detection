@@ -1,0 +1,78 @@
+==================== KẾT QUẢ ĐÁNH GIÁ: Logistic Regression + TF-IDF ====================
+Accuracy        : 0.8300
+Macro Avg F1    : 0.7437
+F1 - Clean (0)  : 0.8925
+F1 - Toxic (1)  : 0.5949
+============================================================
+
+==================== KẾT QUẢ ĐÁNH GIÁ: LinearSVC + LaBSE ====================
+Accuracy        : 0.7556
+Macro Avg F1    : 0.6706
+F1 - Clean (0)  : 0.8379
+F1 - Toxic (1)  : 0.5033
+============================================================
+
+==================== KẾT QUẢ ĐÁNH GIÁ: CNN FastText (Threshold=0.67) ====================
+Accuracy        : 0.8675
+Macro Avg F1    : 0.7539
+F1 - Clean (0)  : 0.9211
+F1 - Toxic (1)  : 0.5866
+============================================================
+
+
+########## CAC MO HINH BO SUNG (2026-06-29 16:22:03) ##########
+
+==================== KET QUA DANH GIA: MultinomialNB + Char Count ngram(3,5) ====================
+Accuracy        : 0.8611
+Macro Avg F1    : 0.7552
+F1 - Clean (0)  : 0.9162
+F1 - Toxic (1)  : 0.5941
+Threshold Valid : 13.109261
+Valid Macro F1  : 0.7463
+Train Time      : 18.56s
+Predict Time    : 1.41s
+============================================================
+
+==================== KET QUA DANH GIA: MultinomialNB + Word Count ngram(1,2) ====================
+Accuracy        : 0.8582
+Macro Avg F1    : 0.7547
+F1 - Clean (0)  : 0.9140
+F1 - Toxic (1)  : 0.5954
+Threshold Valid : -0.360624
+Valid Macro F1  : 0.7519
+Train Time      : 3.06s
+Predict Time    : 0.17s
+============================================================
+
+==================== KET QUA DANH GIA: PassiveAggressive + Hashing Word ngram(1,2) ====================
+Accuracy        : 0.8629
+Macro Avg F1    : 0.7544
+F1 - Clean (0)  : 0.9176
+F1 - Toxic (1)  : 0.5912
+Threshold Valid : 0.068667
+Valid Macro F1  : 0.7257
+Train Time      : 9.34s
+Predict Time    : 0.19s
+============================================================
+
+==================== KET QUA DANH GIA: Rocchio + TF-IDF Word ngram(1,2) ====================
+Accuracy        : 0.8224
+Macro Avg F1    : 0.7148
+F1 - Clean (0)  : 0.8900
+F1 - Toxic (1)  : 0.5396
+Threshold Valid : 0.004423
+Valid Macro F1  : 0.6947
+Train Time      : 4.16s
+Predict Time    : 0.25s
+============================================================
+
+==================== KET QUA DANH GIA: BernoulliNB + Binary Word ngram(1,2) ====================
+Accuracy        : 0.8115
+Macro Avg F1    : 0.7042
+F1 - Clean (0)  : 0.8824
+F1 - Toxic (1)  : 0.5261
+Threshold Valid : -3.804372
+Valid Macro F1  : 0.7103
+Train Time      : 2.75s
+Predict Time    : 0.15s
+============================================================
